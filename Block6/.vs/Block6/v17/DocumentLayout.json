@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dev\\csharp\\Block6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8E5D04E-1A19-4853-A58D-E12DC81E2E0B}|Block6\\Block6.csproj|c:\\dev\\csharp\\block6\\block6\\block6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8E5D04E-1A19-4853-A58D-E12DC81E2E0B}|Block6\\Block6.csproj|solutionrelative:block6\\block6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Block6.cs",
+              "DocumentMoniker": "C:\\dev\\csharp\\Block6\\Block6\\Block6.cs",
+              "RelativeDocumentMoniker": "Block6\\Block6.cs",
+              "ToolTip": "C:\\dev\\csharp\\Block6\\Block6\\Block6.cs",
+              "RelativeToolTip": "Block6\\Block6.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T14:39:44.817Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

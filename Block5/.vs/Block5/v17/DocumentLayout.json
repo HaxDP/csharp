@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dev\\csharp\\Block5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{39B12055-691D-46F2-9A3B-28CA318E4128}|Block5\\Block5.csproj|c:\\dev\\csharp\\block5\\block5\\block5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39B12055-691D-46F2-9A3B-28CA318E4128}|Block5\\Block5.csproj|solutionrelative:block5\\block5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Block5.cs",
+              "DocumentMoniker": "C:\\dev\\csharp\\Block5\\Block5\\Block5.cs",
+              "RelativeDocumentMoniker": "Block5\\Block5.cs",
+              "ToolTip": "C:\\dev\\csharp\\Block5\\Block5\\Block5.cs",
+              "RelativeToolTip": "Block5\\Block5.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T14:37:34.062Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

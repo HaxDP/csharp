@@ -1,0 +1,15 @@
+C:\dev\csharp\Block4\Block4\bin\Debug\net8.0\Block4.exe
+C:\dev\csharp\Block4\Block4\bin\Debug\net8.0\Block4.deps.json
+C:\dev\csharp\Block4\Block4\bin\Debug\net8.0\Block4.runtimeconfig.json
+C:\dev\csharp\Block4\Block4\bin\Debug\net8.0\Block4.dll
+C:\dev\csharp\Block4\Block4\bin\Debug\net8.0\Block4.pdb
+C:\dev\csharp\Block4\Block4\obj\Debug\net8.0\Block4.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\csharp\Block4\Block4\obj\Debug\net8.0\Block4.AssemblyInfoInputs.cache
+C:\dev\csharp\Block4\Block4\obj\Debug\net8.0\Block4.AssemblyInfo.cs
+C:\dev\csharp\Block4\Block4\obj\Debug\net8.0\Block4.csproj.CoreCompileInputs.cache
+C:\dev\csharp\Block4\Block4\obj\Debug\net8.0\Block4.sourcelink.json
+C:\dev\csharp\Block4\Block4\obj\Debug\net8.0\Block4.dll
+C:\dev\csharp\Block4\Block4\obj\Debug\net8.0\refint\Block4.dll
+C:\dev\csharp\Block4\Block4\obj\Debug\net8.0\Block4.pdb
+C:\dev\csharp\Block4\Block4\obj\Debug\net8.0\Block4.genruntimeconfig.cache
+C:\dev\csharp\Block4\Block4\obj\Debug\net8.0\ref\Block4.dll

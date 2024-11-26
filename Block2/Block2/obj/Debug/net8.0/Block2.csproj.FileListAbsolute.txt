@@ -1,0 +1,15 @@
+C:\dev\csharp\Block2\Block2\bin\Debug\net8.0\Block2.exe
+C:\dev\csharp\Block2\Block2\bin\Debug\net8.0\Block2.deps.json
+C:\dev\csharp\Block2\Block2\bin\Debug\net8.0\Block2.runtimeconfig.json
+C:\dev\csharp\Block2\Block2\bin\Debug\net8.0\Block2.dll
+C:\dev\csharp\Block2\Block2\bin\Debug\net8.0\Block2.pdb
+C:\dev\csharp\Block2\Block2\obj\Debug\net8.0\Block2.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\csharp\Block2\Block2\obj\Debug\net8.0\Block2.AssemblyInfoInputs.cache
+C:\dev\csharp\Block2\Block2\obj\Debug\net8.0\Block2.AssemblyInfo.cs
+C:\dev\csharp\Block2\Block2\obj\Debug\net8.0\Block2.csproj.CoreCompileInputs.cache
+C:\dev\csharp\Block2\Block2\obj\Debug\net8.0\Block2.sourcelink.json
+C:\dev\csharp\Block2\Block2\obj\Debug\net8.0\Block2.dll
+C:\dev\csharp\Block2\Block2\obj\Debug\net8.0\refint\Block2.dll
+C:\dev\csharp\Block2\Block2\obj\Debug\net8.0\Block2.pdb
+C:\dev\csharp\Block2\Block2\obj\Debug\net8.0\Block2.genruntimeconfig.cache
+C:\dev\csharp\Block2\Block2\obj\Debug\net8.0\ref\Block2.dll

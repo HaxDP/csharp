@@ -1,0 +1,15 @@
+C:\dev\csharp\Block5\Block5\obj\Debug\net8.0\Block5.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\csharp\Block5\Block5\obj\Debug\net8.0\Block5.AssemblyInfoInputs.cache
+C:\dev\csharp\Block5\Block5\obj\Debug\net8.0\Block5.AssemblyInfo.cs
+C:\dev\csharp\Block5\Block5\obj\Debug\net8.0\Block5.csproj.CoreCompileInputs.cache
+C:\dev\csharp\Block5\Block5\obj\Debug\net8.0\Block5.sourcelink.json
+C:\dev\csharp\Block5\Block5\bin\Debug\net8.0\Block5.exe
+C:\dev\csharp\Block5\Block5\bin\Debug\net8.0\Block5.deps.json
+C:\dev\csharp\Block5\Block5\bin\Debug\net8.0\Block5.runtimeconfig.json
+C:\dev\csharp\Block5\Block5\bin\Debug\net8.0\Block5.dll
+C:\dev\csharp\Block5\Block5\bin\Debug\net8.0\Block5.pdb
+C:\dev\csharp\Block5\Block5\obj\Debug\net8.0\Block5.dll
+C:\dev\csharp\Block5\Block5\obj\Debug\net8.0\refint\Block5.dll
+C:\dev\csharp\Block5\Block5\obj\Debug\net8.0\Block5.pdb
+C:\dev\csharp\Block5\Block5\obj\Debug\net8.0\Block5.genruntimeconfig.cache
+C:\dev\csharp\Block5\Block5\obj\Debug\net8.0\ref\Block5.dll

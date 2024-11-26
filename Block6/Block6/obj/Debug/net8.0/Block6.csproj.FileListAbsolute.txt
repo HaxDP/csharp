@@ -1,0 +1,15 @@
+C:\dev\csharp\Block6\Block6\bin\Debug\net8.0\Block6.exe
+C:\dev\csharp\Block6\Block6\bin\Debug\net8.0\Block6.deps.json
+C:\dev\csharp\Block6\Block6\bin\Debug\net8.0\Block6.runtimeconfig.json
+C:\dev\csharp\Block6\Block6\bin\Debug\net8.0\Block6.dll
+C:\dev\csharp\Block6\Block6\bin\Debug\net8.0\Block6.pdb
+C:\dev\csharp\Block6\Block6\obj\Debug\net8.0\Block6.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\csharp\Block6\Block6\obj\Debug\net8.0\Block6.AssemblyInfoInputs.cache
+C:\dev\csharp\Block6\Block6\obj\Debug\net8.0\Block6.AssemblyInfo.cs
+C:\dev\csharp\Block6\Block6\obj\Debug\net8.0\Block6.csproj.CoreCompileInputs.cache
+C:\dev\csharp\Block6\Block6\obj\Debug\net8.0\Block6.sourcelink.json
+C:\dev\csharp\Block6\Block6\obj\Debug\net8.0\Block6.dll
+C:\dev\csharp\Block6\Block6\obj\Debug\net8.0\refint\Block6.dll
+C:\dev\csharp\Block6\Block6\obj\Debug\net8.0\Block6.pdb
+C:\dev\csharp\Block6\Block6\obj\Debug\net8.0\Block6.genruntimeconfig.cache
+C:\dev\csharp\Block6\Block6\obj\Debug\net8.0\ref\Block6.dll

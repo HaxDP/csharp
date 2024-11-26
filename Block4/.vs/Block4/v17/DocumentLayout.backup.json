@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dev\\csharp\\Block4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{385BBF2A-27DF-4194-8EAD-647A4CDF33B5}|Block4\\Block4.csproj|c:\\dev\\csharp\\block4\\block4\\block4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{385BBF2A-27DF-4194-8EAD-647A4CDF33B5}|Block4\\Block4.csproj|solutionrelative:block4\\block4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Block4.cs",
+              "DocumentMoniker": "C:\\dev\\csharp\\Block4\\Block4\\Block4.cs",
+              "RelativeDocumentMoniker": "Block4\\Block4.cs",
+              "ToolTip": "C:\\dev\\csharp\\Block4\\Block4\\Block4.cs",
+              "RelativeToolTip": "Block4\\Block4.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAADUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T14:36:02.857Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
