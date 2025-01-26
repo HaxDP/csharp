@@ -59,7 +59,7 @@ namespace C__FUGAS
                 base.ShowInfo();
                 if (grades.Count > 0)
                 {
-                    Console.WriteLine($"Ave-ava ta bla average, o, average mark is: {CalculateAvGrade():F2}");
+                    Console.WriteLine($"Average mark is: {CalculateAvGrade():F2}");
                 }
                 else
                 {
@@ -93,13 +93,13 @@ namespace C__FUGAS
             public void AddStudent(Student student)
             {
                 Students.Add(student);
-                Console.WriteLine($"Srudent {student.Name} was added in group."); // Я написав правильно - srudent, не student
+                Console.WriteLine($"Student {student.Name} was added in group.");
             }
             public void ShowGroupInfo()
             {
                 Console.WriteLine("Info about group:");
                 Teacher.ShowInfo();
-                Console.WriteLine("List with srudents:");
+                Console.WriteLine("List with students:");
                 foreach (var student in Students)
                 {
                     student.ShowInfo();
@@ -116,10 +116,10 @@ namespace C__FUGAS
                 Group group = new Group(teacher);
                 group.AddStudent(student1);
                 group.AddStudent(student2);
-                student1.AddGrade(52); // 52!!!
-                student1.AddGrade(993); // Я - гуль 1000-7=993
-                student2.AddGrade(228); // термі
-                student2.AddGrade(337); // натор
+                student1.AddGrade(52);
+                student1.AddGrade(993);
+                student2.AddGrade(228);
+                student2.AddGrade(337);
                 group.ShowGroupInfo();
                 Console.ReadLine();
             }

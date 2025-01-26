@@ -12,96 +12,102 @@ namespace C__FUGAS
     {
         //task 1
         /*
-        static void calc_task(int da)
+        static void PrintMultiplicationTable(int number)
         {
             for (int i = 1; i <= 10; i++)
             {
-                Console.WriteLine($"{da} x {i} = {da * i}");
+                Console.WriteLine($"{number} x {i} = {number * i}");
             }
         }
         static void Main()
         {
-            Console.Write("Enter number for multiply table: ");
-            int da = int.Parse(Console.ReadLine());
-            calc_task(da);
+            Console.Write("Enter number for multiplication table: ");
+            int number = int.Parse(Console.ReadLine());
+            PrintMultiplicationTable(number);
             Console.ReadLine();
         }
         */
+
         //task 2
         /*
-        static void calc_task(int da)
+        static void ConvertKilometersToMiles(int kilometers)
         {
-            Console.WriteLine($"{da} kilometers will be = {da * 0.62137119} miles");
+            Console.WriteLine($"{kilometers} kilometers is equal to {kilometers * 0.62137119} miles");
         }
         static void Main()
         {
-            Console.Write("Enter how many killometers, to convert in miles: ");
-            int da = int.Parse(Console.ReadLine());
-            calc_task(da);
+            Console.Write("Enter distance in kilometers to convert to miles: ");
+            int kilometers = int.Parse(Console.ReadLine());
+            ConvertKilometersToMiles(kilometers);
             Console.ReadLine();
         }
         */
+
         //task 3
         /*
-        static int calc_task(int num, int exp)
+        static int CalculatePower(int baseNumber, int exponent)
         {
-            if (exp == 0)
+            if (exponent == 0)
                 return 1;
 
             int result = 1;
-            for (int i = 0; i < Math.Abs(exp); i++)
+            for (int i = 0; i < Math.Abs(exponent); i++)
             {
-                result *= num;
+                result *= baseNumber;
             }
-            if (exp < 0)
-                throw new ArgumentException("Negative powers are not supported for integer values.");
+
+            if (exponent < 0)
+                throw new ArgumentException("Negative exponents are not supported for integer values.");
+
             return result;
         }
         static void Main()
         {
-            Console.Write("Enter number: ");
-            int number = int.Parse(Console.ReadLine());
-            Console.Write("Enter pow: ");
-            int exp = int.Parse(Console.ReadLine());
-            int result = calc_task(number, exp);
-            Console.WriteLine($"{number} in pow {exp} = {result}");
+            Console.Write("Enter the base number: ");
+            int baseNumber = int.Parse(Console.ReadLine());
+            Console.Write("Enter the exponent: ");
+            int exponent = int.Parse(Console.ReadLine());
+            int result = CalculatePower(baseNumber, exponent);
+            Console.WriteLine($"{baseNumber} raised to the power {exponent} = {result}");
             Console.ReadLine();
         }
         */
+
         //task 4
         /*
-        static int calc_task(int nigger)
+        static int CalculateFactorial(int number)
         {
-            int res = 1;
-            for(int i = 1; i < nigger+1; i++)
+            int result = 1;
+            for (int i = 1; i <= number; i++)
             {
-                res *= i;
+                result *= i;
             }
-            return res;
+            return result;
         }
         static void Main()
         {
-            Console.Write("Enter number, to calculate factorial of it: ");
-            int nigger = int.Parse(Console.ReadLine());
-            int cell = calc_task(nigger);
-            Console.WriteLine(cell);
+            Console.Write("Enter a number to calculate its factorial: ");
+            int number = int.Parse(Console.ReadLine());
+            int factorial = CalculateFactorial(number);
+            Console.WriteLine($"Factorial of {number} is {factorial}");
             Console.ReadLine();
         }
         */
+
         //task 5
         /*
-        static long cell(int nigger)
+        static long CalculateFactorialRecursive(int number)
         {
-            if (nigger == 0 || nigger == 1)
+            if (number == 0 || number == 1)
                 return 1;
-            return nigger * cell(nigger - 1);
+            return number * CalculateFactorialRecursive(number - 1);
         }
         static void Main()
         {
-            Console.Write("Enter a number to calculate the factorial: ");
-            int nigger = int.Parse(Console.ReadLine());
-            long slay = cell(nigger);
-            Console.WriteLine($"Factorial number {nigger} = {slay}");
+            Console.Write("Enter a number to calculate its factorial: ");
+            int number = int.Parse(Console.ReadLine());
+            long factorial = CalculateFactorialRecursive(number);
+            Console.WriteLine($"Factorial of {number} is {factorial}");
             Console.ReadLine();
         }
         */

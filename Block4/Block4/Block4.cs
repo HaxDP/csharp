@@ -26,30 +26,30 @@ namespace C__FUGAS
                     matrix[i, j] = int.Parse(Console.ReadLine());
                 }
             }
-            int ja_chas_yobnus_max = matrix[0, 0];
-            int ja_chas_yobnus_min = matrix[0, 0];
-            int maxRowwww = 0, maxColllllllllumn = 0;
-            int minRowwww = 0, minColllllllllumn = 0;
+            int maxElement = matrix[0, 0];
+            int minElement = matrix[0, 0];
+            int maxRow = 0, maxCol = 0;
+            int minRow = 0, minCol = 0;
             for (int i = 0; i < rows; i++)
             {
                 for (int j = 0; j < cols; j++)
                 {
-                    if (matrix[i, j] > ja_chas_yobnus_max)
+                    if (matrix[i, j] > maxElement)
                     {
-                        ja_chas_yobnus_max = matrix[i, j];
-                        maxRowwww = i;
-                        maxColllllllllumn = j;
+                        maxElement = matrix[i, j];
+                        maxRow = i;
+                        maxCol = j;
                     }
-                    if (matrix[i, j] < ja_chas_yobnus_min)
+                    if (matrix[i, j] < minElement)
                     {
-                        ja_chas_yobnus_min = matrix[i, j];
-                        minRowwww = i;
-                        minColllllllllumn = j;
+                        minElement = matrix[i, j];
+                        minRow = i;
+                        minCol = j;
                     }
                 }
             }
-            Console.WriteLine($"Max element: {ja_chas_yobnus_max} is in the row {maxRowwww + 1}, column {maxColllllllllumn + 1}");
-            Console.WriteLine($"Min element: {ja_chas_yobnus_min} is in the row {minRowwww + 1}, column {minColllllllllumn + 1}");
+            Console.WriteLine($"Max element: {maxElement} is in the row {maxRow + 1}, column {maxCol + 1}");
+            Console.WriteLine($"Min element: {minElement} is in the row {minRow + 1}, column {minCol + 1}");
             Console.ReadLine();
             */
             //task 2
@@ -58,16 +58,16 @@ namespace C__FUGAS
             int rows = int.Parse(Console.ReadLine());
             Console.Write("Enter, how many columns in matrix: ");
             int cols = int.Parse(Console.ReadLine());
-            int[,] arc = new int[rows, cols];
-            int[,] warden = new int[rows, cols];
-            int[,] resultMatrixxx_pornhub_com = new int[rows, cols];
+            int[,] firstMatrix = new int[rows, cols];
+            int[,] secondMatrix = new int[rows, cols];
+            int[,] sumMatrix = new int[rows, cols];
             Console.WriteLine("Enter elements first matrix:");
             for (int i = 0; i < rows; i++)
             {
                 for (int j = 0; j < cols; j++)
                 {
                     Console.Write($"Element [{i + 1}, {j + 1}]: ");
-                    arc[i, j] = int.Parse(Console.ReadLine());
+                    firstMatrix[i, j] = int.Parse(Console.ReadLine());
                 }
             }
             Console.WriteLine("Enter elements second matrix:");
@@ -76,14 +76,14 @@ namespace C__FUGAS
                 for (int j = 0; j < cols; j++)
                 {
                     Console.Write($"Element [{i + 1}, {j + 1}]: ");
-                    warden[i, j] = int.Parse(Console.ReadLine());
+                    secondMatrix[i, j] = int.Parse(Console.ReadLine());
                 }
             }
             for (int i = 0; i < rows; i++)
             {
                 for (int j = 0; j < cols; j++)
                 {
-                    resultMatrixxx_pornhub_com[i, j] = arc[i, j] + warden[i, j];
+                    sumMatrix[i, j] = firstMatrix[i, j] + secondMatrix[i, j];
                 }
             }
             Console.WriteLine("Result:");
@@ -91,7 +91,7 @@ namespace C__FUGAS
             {
                 for (int j = 0; j < cols; j++)
                 {
-                    Console.Write(resultMatrixxx_pornhub_com[i, j] + "\t");
+                    Console.Write(sumMatrix[i, j] + "\t");
                 }
                 Console.WriteLine();
             }
@@ -101,16 +101,16 @@ namespace C__FUGAS
             /*
             Console.Write("Enter size of square matrix (n): ");
             int n = int.Parse(Console.ReadLine());
-            int[,] arc = new int[n, n];
-            int[,] warden = new int[n, n];
-            int[,] resultMatrixxx_pornhub_com = new int[n, n];
+            int[,] firstMatrix = new int[n, n];
+            int[,] secondMatrix = new int[n, n];
+            int[,] productMatrix = new int[n, n];
             Console.WriteLine("Enter elements first matrix: ");
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < n; j++)
                 {
                     Console.Write($"Element [{i + 1}, {j + 1}]: ");
-                    arc[i, j] = int.Parse(Console.ReadLine());
+                    firstMatrix[i, j] = int.Parse(Console.ReadLine());
                 }
             }
             Console.WriteLine("Enter elements second matrix: ");
@@ -119,17 +119,17 @@ namespace C__FUGAS
                 for (int j = 0; j < n; j++)
                 {
                     Console.Write($"Element [{i + 1}, {j + 1}]: ");
-                    warden[i, j] = int.Parse(Console.ReadLine());
+                    secondMatrix[i, j] = int.Parse(Console.ReadLine());
                 }
             }
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < n; j++)
                 {
-                    resultMatrixxx_pornhub_com[i, j] = 0;
+                    productMatrix[i, j] = 0;
                     for (int k = 0; k < n; k++)
                     {
-                        resultMatrixxx_pornhub_com[i, j] += arc[i, k] * warden[k, j];
+                        productMatrix[i, j] += firstMatrix[i, k] * secondMatrix[k, j];
                     }
                 }
             }
@@ -138,7 +138,7 @@ namespace C__FUGAS
             {
                 for (int j = 0; j < n; j++)
                 {
-                    Console.Write(resultMatrixxx_pornhub_com[i, j] + "\t");
+                    Console.Write(productMatrix[i, j] + "\t");
                 }
                 Console.WriteLine();
             }
@@ -148,14 +148,14 @@ namespace C__FUGAS
             /*
             Console.Write("Enter size of square matrix (n): ");
             int n = int.Parse(Console.ReadLine());
-            int[,] allahadbaaaaar = new int[n, n];
+            int[,] matrix = new int[n, n];
             Console.WriteLine("Enter matrix elements:");
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < n; j++)
                 {
                     Console.Write($"Element [{i + 1}, {j + 1}]: ");
-                    allahadbaaaaar[i, j] = int.Parse(Console.ReadLine());
+                    matrix[i, j] = int.Parse(Console.ReadLine());
                 }
             }
             for (int i = 0; i < n; i++)
@@ -164,7 +164,7 @@ namespace C__FUGAS
                 {
                     if (i != j)
                     {
-                        allahadbaaaaar[i, j] = 0;
+                        matrix[i, j] = 0;
                     }
                 }
             }
@@ -173,7 +173,7 @@ namespace C__FUGAS
             {
                 for (int j = 0; j < n; j++)
                 {
-                    Console.Write(allahadbaaaaar[i, j] + "\t");
+                    Console.Write(matrix[i, j] + "\t");
                 }
                 Console.WriteLine();
             }
@@ -181,24 +181,24 @@ namespace C__FUGAS
             */
             //task 5
             /*
-            int[,] allahadbaaaaaar = new int[3, 3];
+            int[,] matrix = new int[3, 3];
             Console.WriteLine("Enter matrix elements 3x3:");
             for (int i = 0; i < 3; i++)
             {
                 for (int j = 0; j < 3; j++)
                 {
                     Console.Write($"Element [{i + 1}, {j + 1}]: ");
-                    allahadbaaaaaar[i, j] = int.Parse(Console.ReadLine());
+                    matrix[i, j] = int.Parse(Console.ReadLine());
                 }
             }
-            int determinant_ya_zaraz_zaplachy =
-                (allahadbaaaaaar[0, 0] * allahadbaaaaaar[1, 1] * allahadbaaaaaar[2, 2]) +
-                (allahadbaaaaaar[0, 1] * allahadbaaaaaar[1, 2] * allahadbaaaaaar[2, 0]) +
-                (allahadbaaaaaar[0, 2] * allahadbaaaaaar[1, 0] * allahadbaaaaaar[2, 1]) -
-                (allahadbaaaaaar[0, 2] * allahadbaaaaaar[1, 1] * allahadbaaaaaar[2, 0]) -
-                (allahadbaaaaaar[0, 1] * allahadbaaaaaar[1, 0] * allahadbaaaaaar[2, 2]) -
-                (allahadbaaaaaar[0, 0] * allahadbaaaaaar[1, 2] * allahadbaaaaaar[2, 1]);
-            Console.WriteLine($"Determinant 3x3: {determinant_ya_zaraz_zaplachy}");
+            int determinant =
+                (matrix[0, 0] * matrix[1, 1] * matrix[2, 2]) +
+                (matrix[0, 1] * matrix[1, 2] * matrix[2, 0]) +
+                (matrix[0, 2] * matrix[1, 0] * matrix[2, 1]) -
+                (matrix[0, 2] * matrix[1, 1] * matrix[2, 0]) -
+                (matrix[0, 1] * matrix[1, 0] * matrix[2, 2]) -
+                (matrix[0, 0] * matrix[1, 2] * matrix[2, 1]);
+            Console.WriteLine($"Determinant 3x3: {determinant}");
             Console.ReadLine();
             */
         }
